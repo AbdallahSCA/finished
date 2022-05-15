@@ -1,0 +1,12 @@
+Scripts :
+
+Sign Up			[done]
+Login			[done]
+View Account	[done]
+Forget Email 	[done]
+Transfer 		[semi]
+Withdrawl 		[semi]
+Deposit 		[semi]
+Exchange		[    ]
+Log Out 		[done]
+

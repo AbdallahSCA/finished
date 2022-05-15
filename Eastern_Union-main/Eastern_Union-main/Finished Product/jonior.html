@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jonior.css">
+    <title>User Page</title>
+    <!-- <script>
+        function myfunction(){
+            document.getElementById('transfare').style.visibility='visible';
+            document.getElementById('befor').style.opacity='0.3';
+            document.getElementById('befor').style.backgroundColor='black';
+        }
+        function ourfunction(){
+            document.getElementById('transfare','cancle','submit').style.visibility="hidden";
+            document.getElementById('befor').style.opacity='1';
+            document.getElementById('befor').style.backgroundColor='transparent';
+        }
+    </script> -->
+    <script src="JavaScript.js"></script>
+</head>
+<body>
+<div class="befor_transfare" id="befor" >
+    <header class="header">
+        <nav class="navigation">
+            <a href="Home.html">
+                <img src="pictures/third logo.png" alt="logo" width="80px" height="80px">
+            </a>
+            <a href="#" class="logout">Log Out</a>
+        </nav>
+    </header>
+        <div class="main_section">
+            <div class="left_section">
+                <div class="first_div_left_section">
+                    <img src="pictures/boy.webp" alt="user photo" class="photo">
+                    <h2 class="name">mostafa</h2>
+                    <h3 class="e-mail">mostafa@gmail.com</h3>
+                    <!-- <h4>134</h4> -->
+                </div>
+                <div class="second_div_left_section">
+                    <span class="balance">balance</span>
+                    <span class="value">500$</span>
+                </div>
+            </div>
+
+            <!-- right_section  -->
+
+            <div class="right_section">
+                <h1>Latest transation:</h1>
+                <section class="table">
+                    <table class="content_table">
+                        <thead>
+                            <tr>
+                                <th>From</th>
+                                <th>To</th>
+                                <th>Date</th>
+                                <th>Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>134</td>
+                                <td>145</td>
+                                <td>9.40pm : 29/10/2018 </td>
+                                <td>300$</td>
+                            </tr>
+                            <tr>
+                                <td>134</td>
+                                <td>155</td>
+                                <td>9.40pm : 29/10/2018 </td>
+                                <td>300$</td>
+                            </tr>
+                            <tr>
+                                <td>134</td>
+                                <td>122</td>
+                                <td>9.40pm : 29/10/2018 </td>
+                                <td>300$</td>
+                            </tr>
+                            <tr>
+                                <td>154</td>
+                                <td>134</td>
+                                <td>9.40pm : 29/10/2018 </td>
+                                <td>300$</td>
+                            </tr>
+                            <tr>
+                                <td>178</td>
+                                <td>134</td>
+                                <td>9.40pm : 29/10/2018 </td>
+                                <td>300$</td>
+                            </tr>
+                      
+                        </tbody>
+
+                    </table>
+                </section>
+                <button id="transfare_1" onclick="myfunction()">transfare</button>
+            </div>
+        </div>
+   </div>
+   <!-- transfare start  -->
+   <div class="after_transfare"  id="transfare" style="visibility: hidden;" >
+    <div class="container"  >
+        <button class="cancle" id="cancle" onclick="ourfunction(),hisfunction()" >X</button>
+        <form action="">
+            <label for="">To</label><br>
+            <input type="text" name="To" id="" required>
+            <br>
+            <label for="">Amount</label> <br>
+            <input type="number" name="" id=""required min="0"  step="100" class="amount"><br>
+            <label for="">Currency</label><br>
+            <input type="text" name="" id=""required> <br>
+            <label for="">password</label> <br>
+            <input type="password" name="" id="" required> <br>
+            <label for="">confirm password</label> <br>
+            <input type="password" name="" id="" required>
+            <br>
+            <input type="submit" name="submit" class="submit" value="submit" id="submit" onclick="ourfunction">
+            <!-- <button>transfare</button> -->
+        </form>
+        
+    </div>
+</div>
+</body>
+</html>

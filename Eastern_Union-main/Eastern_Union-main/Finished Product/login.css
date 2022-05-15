@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+html {
+    font-size: 10px;
+}
+
+.navigation {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 10vh;
+    z-index: 999;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 61, 77, 100%);
+    padding: 0px 50px;
+}
+
+.links_navigation a {
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 2.3rem;
+    color: #BCCCD0;
+    transition: 0.7s ease;
+}
+
+.links_navigation a:hover {
+    text-decoration: underline;
+    color: rgba(187, 215, 220, 100%);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url(pictures/man_dark\ mode.jpeg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.main_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.allform {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+
+.allform input {
+    background-color:#FFFFFF;
+    padding: 12px 45px;
+    margin-top: 4%;
+    margin-bottom: 18px;
+    border: none;
+    border-radius: 5px;
+}
+.allform label {
+    color: white;
+    font-size: 2rem;
+}
+.allform a {
+    /* text-decoration: none; */
+    font-size: 2rem;
+    /* padding :10px 20px; */
+    /* background-color: #E80000; */
+    color:rgb(170, 146, 150) ;
+    text-decoration: none;
+    /* border-radius: 20px; */
+    /* transition: 0.7s ease; */
+}
+.allform a:hover {
+    /* transform: scale(1.2); */
+    text-decoration: underline;
+    color: wheat;
+}
+#submit_inform {
+    background-color: #37A350;
+    color: white;
+    border-radius: 20px;
+    /* width: 7em; */
+    padding:10px 20px ;
+    font-size: 2rem;
+    margin-left:2px;
+    margin-right: 10px;
+    /* transition: 0.7s ease; */
+}
+#submit_inform:hover {
+    /* transform: scale(1.2); */
+    background-color: #72a17d;
+}
